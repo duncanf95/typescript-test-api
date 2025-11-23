@@ -7,15 +7,16 @@
   // Visit https://aka.ms/tsconfig to read more about this file
   "compilerOptions": {
     "lib": [
-      "unrelated.ts",
+      "unrelated.ts"
     ],
+    "emitDecoratorMetadata": true,
     // File Layout
      "rootDir": "./src",
      "outDir": "./dist",
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
-    "module": "ESNext",
+    "module": "CommonJS",
     "target": "ESNext",
 //    "types": [".mjs"],
     // For nodejs:
@@ -49,6 +50,6 @@
     "noUncheckedSideEffectImports": true,
     "moduleDetection": "force",
     "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
   }
 }

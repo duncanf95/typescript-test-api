@@ -15,7 +15,7 @@
   "dependencies": {
     "dotenv": "^17.2.3",
     "express": "^5.1.0",
-    "routing-controllers": "^0.11.3"
+    "modern-express-decorators": "file:../modern-express-decorators"
   },
   "devDependencies": {
     "@types/express": "^5.0.5",
