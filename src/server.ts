@@ -1,10 +1,10 @@
 import {app} from './app';
 import config from './config/config';
-import {Decorator} from "./controllers/decoratorController";
 import {RegisterControllers} from 'modern-express-decorators'
+import {TestController} from "./controllers/TestController";
 
 RegisterControllers([
-    Decorator
+    TestController
 ],
     app)
 
